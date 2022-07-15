@@ -93,7 +93,7 @@ def esmcaption(image, caption, tosavename=None):
 
 
 def caption(image, caption, tosavename=None):
-    return htmlcap("captionhtml/mycaption.html", image, caption, tosavename)
+    return htmlcap("captionhtml/esmcaption.html", image, caption, tosavename)
 
 
 def bottomcaption(image, caption, tosavename=None):
