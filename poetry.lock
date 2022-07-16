@@ -221,7 +221,7 @@ develop = false
 
 [package.dependencies]
 aiohttp = "*"
-nextcord = "2.0.0a7"
+nextcord = "2.0.0"
 
 [package.source]
 type = "git"
@@ -326,7 +326,7 @@ python-versions = ">=3.5, <4"
 
 [[package]]
 name = "nextcord"
-version = "2.0.0a7"
+version = "2.0.0"
 description = "A Python wrapper for the Discord API forked from discord.py"
 category = "main"
 optional = false
