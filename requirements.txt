@@ -1,4 +1,4 @@
-nextcord==2.0.0
+nextcord
 docstring_parser
 coloredlogs
 discordlists.py
