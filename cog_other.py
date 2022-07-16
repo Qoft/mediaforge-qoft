@@ -147,7 +147,7 @@ class Other(commands.Cog, name="Other"):
         embed.add_field(name="Currently Executing Tasks", value=f"{stats[1]}")
         embed.add_field(name="Available Workers", value=f"{config.chrome_driver_instances - stats[1]}")
         embed.add_field(name="Total Workers", value=f"{config.chrome_driver_instances}")
-        if isinstance(self.bot, discord.AutoShardedClient):
+        if isinstance(self.bot, discord.AutoShardedBot):
             embed.add_field(name="Total Bot Shards", value=f"{len(self.bot.shards)}")
         await ctx.reply(embed=embed)
 
